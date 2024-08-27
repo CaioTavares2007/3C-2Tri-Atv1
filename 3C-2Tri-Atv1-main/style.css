@@ -1,29 +1,28 @@
 :root {
-    --cor-fundo: #01080E;
-    --cor-principal: #0B0D20 ;
+    --cor-fundo: #125fa3;
+    --cor-principal: #000000;
     --cor-secundaria: #212333;
-    --cor-destaque: #2BDEFD;
+    --cor-destaque: #29850d;
     --cor-texto: #D7F9FF;
-  }
-  
-body {
+
+}
+
+body{
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 100vw;
-    }
+    min-height: 100vh;
+}
 
 .cx-principal{
     background-color: var(--cor-principal);
     width: 90%;
+    max-width: 600px;
     text-align: center;
     padding: 20px;
-   }
-
-h1 {
+}
+h1{
     color: var(--cor-destaque);
 }
-
-
